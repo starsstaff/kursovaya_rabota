@@ -5,7 +5,7 @@ import seaborn as sns
 
 
 # Предположим, что ваш датасет загружен в df
-df = pd.read_csv(r'C:\Users\Шамед\py\Kursach\iad_sistem_liza\data\tour_data.csv')
+df = pd.read_csv(r'C:\Users\py\Kursach\iad_sistem_liza\data\tour_data.csv')
 #
 # # Группировка по сезонам и подсчет общего количества туристов
 # tourists_by_season = df.groupby('Сезон')['Кол-во туристов'].sum().reset_index()
