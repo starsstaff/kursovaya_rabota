@@ -40,7 +40,7 @@ df.to_csv('tour_data.csv', index=False)
 
 """----------------------------------"""
 
-df = pd.read_csv(r'C:\Users\Шамед\py\Kursach\iad_sistem_liza\data\tour_data_1.csv')
+df = pd.read_csv(r'C:\Users\py\Kursach\iad_sistem_liza\data\tour_data_1.csv')
 
 # Предобработка данных
 # Преобразование категориальных переменных в числовые с помощью One-Hot Encoding
@@ -96,7 +96,7 @@ print(f"{top_tours['Название тура']} | {top_tours['Регион']} |
 
 
 # # Загрузка данных (замените на свой источник данных)
-# data = pd.read_csv(r'C:\Users\Шамед\py\Kursach\iad_sistem_liza\data\tour_data.csv')
+# data = pd.read_csv(r'C:\Users\py\Kursach\iad_sistem_liza\data\tour_data.csv')
 #
 # # Преобразуем категориальные переменные
 # data['Прибыль'] = data['Цена'] * data['Кол-во туристов']
